@@ -60,6 +60,25 @@ p {
 
 a {
   color: #3498db;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .section {
